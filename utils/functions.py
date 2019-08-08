@@ -27,3 +27,42 @@ def reduce_memory(df):
         else:
             df[col] = df[col].astype('category')
     return df
+
+def freq_encoder(df, label, new_label, min_freq = 0.001):
+    rows = df.shape[0]
+    n = 0
+    dict_fe = dict()
+    vc = df[label].value_counts()
+    for i, j in zip(vc.index, vc):
+        ratio = j/rows
+        if ratio > min_freq:
+            dict_fe[i] = n
+            n += 1
+        else:
+            dict_fe[i] = n
+        
+    if n < 2**8:
+        _d_type = 'uint8'
+    elif n >= 2**8 and n < 8**16:
+        _d_type = 'uint16'
+    elif n >= 2**16 and n < 8**32:
+        _d_type = 'uint32'
+    else:
+        _d_type = 'uint64'
+        
+    df[new_label] = df[label].apply(lambda x: dict_fe[x]).astype(_d_type)
+    
+    n = 0
+    dict_fe = dict()
+    vc = df[label].value_counts()
+    for i, j in zip(vc.index, vc):
+        ratio = j/rows
+        if ratio > min_freq:
+            dict_fe[i] = n
+            n += 1
+        else:
+            dict_fe[i] = n
+            
+    df[new_label] = df[label].apply(lambda x: dict_fe[x]).astype(_d_type)
+    
+    return df
