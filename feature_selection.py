@@ -48,13 +48,13 @@ test = pd.read_csv(data_folder+'/test_ft_eng_0.csv', dtype = schema_generated_0)
 # In[66]:
 
 
-# X_cols = [x for x in train.columns if x not in ['isFraud', 'TransactionDT', 'TransactionID']]
+X_cols = [x for x in train.columns if x not in ['isFraud', 'TransactionDT', 'TransactionID']]
 
 
 # In[109]:
 
 
-X = train.sort_values('TransactionDT')[X_cols].fillna(X.median())
+X = train.sort_values('TransactionDT')[X_cols].fillna(train.median())
 y = train.sort_values('TransactionDT').isFraud
 
 
