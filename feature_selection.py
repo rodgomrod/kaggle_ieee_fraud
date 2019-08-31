@@ -5,7 +5,7 @@
 
 
 import warnings
-warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore
 
 import pandas as pd
 import numpy as np
@@ -54,8 +54,8 @@ X_cols = [x for x in train.columns if x not in ['isFraud', 'TransactionDT', 'Tra
 # In[109]:
 
 
-X = train.sort_values('TransactionDT')[X_cols].fillna(train.median())
-y = train.sort_values('TransactionDT').isFraud
+X = train.sort_values('TransactionDT[X_cols].fillna(train.median())
+y = train.sort_values('TransactionDT.isFraud
 
 
 # In[110]:
@@ -186,7 +186,7 @@ params = {'depth':13,
           'logging_level':'Verbose',
           'allow_writing_files':False,
           'early_stopping_rounds':20,
-          'learning_rate':0.05,
+          'learning_rate':0.07,
           'thread_count':8,
           'boosting_type':'Plain',
           'bootstrap_type':'Bernoulli',
@@ -258,7 +258,7 @@ df_imp.head(10)
 
 
 today = datetime.date.today()
-D = today.strftime('%Y%m%d')
+D = today.strftime('%Y%m%d
 
 
 # In[107]:
