@@ -35,8 +35,8 @@ data_folder = 'input'
 # In[3]:
 
 
-train = pd.read_csv(data_folder+'/train_ft_eng_0.csv', dtype = schema_generated_0)
-test = pd.read_csv(data_folder+'/test_ft_eng_0.csv', dtype = schema_generated_0)
+train = pd.read_csv(data_folder+'/train_ft_eng_1.zip', dtype = schema_ft_eng_1)
+test = pd.read_csv(data_folder+'/test_ft_eng_1.zip', dtype = schema_ft_eng_1)
 
 
 # In[17]:
@@ -148,6 +148,7 @@ y.value_counts()
 
 # In[118]:
 
+print('Training lgb model')
 
 lgb_model.fit(X_train,
                    y_train,
@@ -201,12 +202,13 @@ model_cb = CatBoostClassifier(**params)
 
 # In[72]:
 
+print('Training CatBoost model')
 
 model_cb.fit(X_train,
              y_train,
              cat_features=cat_ft_id,
              eval_set=(X_test, y_test),
-             verbose=50
+             verbose=100
              )
 
 
@@ -218,7 +220,7 @@ cb_imp = model_cb.feature_importances_/model_cb.feature_importances_.max()
 
 # In[89]:
 
-
+print('Training Rf model')
 model_rf = RandomForestClassifier(n_estimators=500, oob_score=True, n_jobs=-1, random_state=42)
 model_rf.fit(X_train, y_train)
 
@@ -263,7 +265,7 @@ D = today.strftime('%Y%m%d')
 
 # In[107]:
 
-
+print('Saving data')
 df_imp.to_csv('docs/ft_importances_{}.csv'.format(D), index=None, header=True)
 
 
