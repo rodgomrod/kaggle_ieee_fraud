@@ -66,3 +66,27 @@
 2019-08-31 23:05:44,433 Invalid alias: The name more can't be aliased because it is another magic command.
 2019-08-31 23:05:44,434 Invalid alias: The name less can't be aliased because it is another magic command.
 2019-08-31 23:05:44,434 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-01 11:51:45,648 
+2019-09-01 11:51:45,649 ##### New LightGBM Model #####
+2019-09-01 11:52:31,519 Used columns: ['R1', 'C1', 'C13', 'C14', 'R12', 'C10', 'N3', 'card2_fe2', 'TransactionAmt', 'C2', 'N5', 'V90', 'card6_fe1', 'card2', 'addr1', 'V283', 'addr1_fe1', 'R3', 'R4', 'V45', 'card1_fe2', 'R11', 'id_31', 'card1', 'C11', 'id_31_fe1', 'card1_fe1', 'C5', 'V282', 'addr2', 'N1', 'V308', 'card2_fe1', 'V310', 'D1', 'V91', 'R_emaildomain_0_fe2', 'R20', 'addr2_fe1', 'card3', 'N2', 'id_17_fe1', 'V233', 'N4', 'id_31_fe2', 'V201', 'R2', 'V258', 'M4_fe2', 'N6']
+2019-09-01 11:52:31,520 Folds number: 5
+2019-09-01 11:53:25,401 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.3, 'importance_type': 'split', 'learning_rate': 0.01, 'max_depth': 11, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 20000, 'n_jobs': -1, 'num_leaves': 91, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': ['AUC'], 'first_metric_only': True, 'bagging_fraction': 0.8, 'bagging_freq': 5, 'lambda_l1': 0, 'lambda_l2': 0, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-01 11:53:26,439 Training fold 1
+2019-09-01 12:00:31,511 Best AUC in this fold: 0.9673862747406711
+2019-09-01 12:00:31,512 Best iteration in this fold: 6886
+2019-09-01 12:00:31,546 Training fold 2
+2019-09-01 12:07:14,043 Best AUC in this fold: 0.9708818967087718
+2019-09-01 12:07:14,043 Best iteration in this fold: 6881
+2019-09-01 12:07:14,079 Training fold 3
+2019-09-01 12:14:18,476 Best AUC in this fold: 0.9705083926115998
+2019-09-01 12:14:18,476 Best iteration in this fold: 7428
+2019-09-01 12:14:18,511 Training fold 4
+2019-09-01 12:20:09,594 Best AUC in this fold: 0.967699210756592
+2019-09-01 12:20:09,594 Best iteration in this fold: 6094
+2019-09-01 12:20:09,630 Training fold 5
+2019-09-01 12:26:54,205 Best AUC in this fold: 0.9715271156040189
+2019-09-01 12:26:54,205 Best iteration in this fold: 6901
+2019-09-01 12:26:54,233 Mean AUC in 5 folds: 0.9696005780843308
+2019-09-01 12:26:54,233 Mean iterations in 5 folds: 6838.0
+2019-09-01 12:32:46,222 Submission name: 20190901_LightGBM_0.9696005780843308
+2019-09-01 12:32:47,406 End
