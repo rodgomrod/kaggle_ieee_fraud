@@ -90,3 +90,66 @@
 2019-09-01 12:26:54,233 Mean iterations in 5 folds: 6838.0
 2019-09-01 12:32:46,222 Submission name: 20190901_LightGBM_0.9696005780843308
 2019-09-01 12:32:47,406 End
+2019-09-02 17:01:46,058 
+2019-09-02 17:01:46,059 ##### New LightGBM Model #####
+2019-09-02 17:05:02,106 
+2019-09-02 17:05:02,106 ##### New LightGBM Model #####
+2019-09-02 17:05:33,037 
+2019-09-02 17:05:33,038 ##### New LightGBM Model #####
+2019-09-02 17:22:43,453 Used columns: ['R1', 'C1', 'C13', 'V258', 'C14', 'V201', 'C8', 'V199', 'V274', 'C7', 'V257', 'C10', 'V187', 'V45', 'C4', 'V188', 'V246', 'V200', 'N5', 'V190', 'C11', 'V244', 'C12', 'V44', 'V219', 'V87', 'V156', 'V242', 'V228', 'N3', 'P_emaildomain_0_fe2', 'id_35_fe1', 'V308', 'C2', 'R19', 'V263', 'V155', 'id_31_fe2', 'V265', 'V189', 'V283', 'V306', 'id_17_fe1', 'V232', 'R21', 'V51', 'V233', 'D9', 'V280', 'V171', 'R12', 'N6', 'V149', 'V277', 'V148', 'V154', 'V213', 'addr2', 'V181', 'V276', 'V278', 'R23', 'V23', 'V218', 'V275', 'R_emaildomain_0_fe2', 'P_emaildomain_0', 'D1', 'V57', 'V332', 'R5', 'id_17', 'id_31_fe1', 'V198', 'V186', 'V39', 'addr2_fe1', 'V204', 'id_16', 'N4', 'V282', 'id_15_fe2', 'V307', 'id_20_fe2', 'V147', 'id_30_fe2', 'id_03', 'V17', 'V196', 'V197', 'id_01', 'V178', 'V182', 'Transaction_day_of_week', 'P_emaildomain_fe1', 'V229', 'V245', 'V316', 'V211', 'id_09', 'R7', 'V235', 'id_35', 'id_37_fe2', 'addr1_fe1', 'V295', 'V243', 'proc_id_31_0', 'R_emaildomain_fe1', 'id_28_fe1', 'V183', 'card2_fe2', 'id_16_fe1', 'P_emaildomain_fe2', 'V202', 'id_02', 'V133', 'id_33', 'id_19_fe2', 'V264', 'N2', 'R_emaildomain_1_fe2', 'id_30_fe1', 'card2', 'V176', 'V179', 'V194', 'V203', 'DeviceInfo_fe1', 'V84', 'V54', 'V207', 'id_32', 'V256', 'R3', 'R25', 'V236', 'V260', 'V25', 'V125', 'V153', 'V255', 'V146', 'P_emaildomain_1_fe1', 'V221', 'V272', 'V216', 'V79', 'V212', 'id_34_fe2', 'V76', 'V252', 'V195', 'V47', 'id_32_fe1', 'id_18_fe2', 'V254', 'V292', 'DeviceType_fe2', 'id_34', 'V152', 'V185', 'ProductCD', 'proc_id_31_0_fe1', 'V215', 'R_emaildomain_0', 'V293', 'V314', 'card4', 'V317', 'V318', 'V180', 'id_33_fe2', 'V166', 'V239', 'D14', 'V75', 'V24', 'V105', 'M4', 'id_16_fe2', 'V284', 'V33', 'V70', 'id_17_fe2', 'id_15', 'card6', 'V309', 'V285', 'V324', 'proc_id_30_0', 'V127', 'card3', 'R22', 'V217', 'V52', 'V279', 'addr2_fe2', 'V322', 'V30', 'DeviceType', 'V214', 'R28', 'V165', 'V124', 'C5', 'R10', 'V291', 'R_emaildomain_fe2', 'addr1', 'V137', 'id_14', 'card1', 'V99', 'V297', 'P_emaildomain', 'V86', 'R9', 'id_31', 'V130', 'V92', 'V95', 'proc_id_30_1_fe2', 'R_emaildomain_1', 'id_14_fe1', 'V150', 'id_13_fe2', 'V58', 'V247', 'R24', 'V164', 'V167', 'proc_id_30_1', 'V208', 'V40', 'V271', 'V74', 'V123', 'V109', 'V100', 'id_06', 'device_name', 'D13', 'V281', 'device_version_fe2', 'V20', 'R_emaildomain_0_fe1', 'V320', 'V62', 'V136', 'V259', 'card5_fe2', 'V97', 'P_emaildomain_0_fe1', 'id_38', 'V56', 'V288', 'V296', 'ProductCD_fe1', 'id_20_fe1', 'V311', 'card2_fe1', 'R17', 'proc_id_31_0_fe2', 'V64', 'id_13', 'id_33_fe1']
+2019-09-02 17:22:43,454 Folds number: 5
+2019-09-02 17:22:54,438 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4, 'importance_type': 'split', 'learning_rate': 0.01, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 20000, 'n_jobs': -1, 'num_leaves': 256, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': ['AUC'], 'first_metric_only': True, 'bagging_fraction': 0.8, 'bagging_freq': 5, 'lambda_l1': 0, 'lambda_l2': 0, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-02 17:23:09,967 Training fold 1
+2019-09-02 17:30:37,925 Best AUC in this fold: 0.9570286722829332
+2019-09-02 17:30:37,925 Best iteration in this fold: 2413
+2019-09-02 17:30:38,011 Training fold 2
+2019-09-02 17:41:30,378 Used columns: ['R1', 'C1', 'C13', 'V258', 'C14', 'V201', 'C8', 'V199', 'V274', 'C7', 'V257', 'C10', 'V187', 'V45', 'C4', 'V188', 'V246', 'V200', 'N5', 'V190', 'C11', 'V244', 'C12', 'V44', 'V219', 'V87', 'V156', 'V242', 'V228', 'N3', 'P_emaildomain_0_fe2', 'id_35_fe1', 'V308', 'C2', 'R19', 'V263', 'V155', 'id_31_fe2', 'V265', 'V189', 'V283', 'V306', 'id_17_fe1', 'V232', 'R21', 'V51', 'V233', 'D9', 'V280', 'V171', 'R12', 'N6', 'V149', 'V277', 'V148', 'V154', 'V213', 'addr2', 'V181', 'V276', 'V278', 'R23', 'V23', 'V218', 'V275', 'R_emaildomain_0_fe2', 'P_emaildomain_0', 'D1', 'V57', 'V332', 'R5', 'id_17', 'id_31_fe1', 'V198', 'V186', 'V39', 'addr2_fe1', 'V204', 'id_16', 'N4', 'V282', 'id_15_fe2', 'V307', 'id_20_fe2', 'V147', 'id_30_fe2', 'id_03', 'V17', 'V196', 'V197', 'id_01', 'V178', 'V182', 'Transaction_day_of_week', 'P_emaildomain_fe1', 'V229', 'V245', 'V316', 'V211', 'id_09', 'R7', 'V235', 'id_35', 'id_37_fe2', 'addr1_fe1', 'V295', 'V243', 'proc_id_31_0', 'R_emaildomain_fe1', 'id_28_fe1', 'V183', 'card2_fe2', 'id_16_fe1', 'P_emaildomain_fe2', 'V202', 'id_02', 'V133', 'id_33', 'id_19_fe2', 'V264', 'N2', 'R_emaildomain_1_fe2', 'id_30_fe1', 'card2', 'V176', 'V179', 'V194', 'V203', 'DeviceInfo_fe1', 'V84', 'V54', 'V207', 'id_32', 'V256', 'R3', 'R25', 'V236', 'V260', 'V25', 'V125', 'V153', 'V255', 'V146', 'P_emaildomain_1_fe1', 'V221', 'V272', 'V216', 'V79', 'V212', 'id_34_fe2', 'V76', 'V252', 'V195', 'V47', 'id_32_fe1', 'id_18_fe2', 'V254', 'V292', 'DeviceType_fe2', 'id_34', 'V152', 'V185', 'ProductCD', 'proc_id_31_0_fe1', 'V215', 'R_emaildomain_0', 'V293', 'V314', 'card4', 'V317', 'V318', 'V180', 'id_33_fe2', 'V166', 'V239', 'D14', 'V75', 'V24', 'V105', 'M4', 'id_16_fe2', 'V284', 'V33', 'V70', 'id_17_fe2', 'id_15', 'card6', 'V309', 'V285', 'V324', 'proc_id_30_0', 'V127', 'card3', 'R22', 'V217', 'V52', 'V279', 'addr2_fe2', 'V322', 'V30', 'DeviceType', 'V214', 'R28', 'V165', 'V124', 'C5', 'R10', 'V291', 'R_emaildomain_fe2', 'addr1', 'V137', 'id_14', 'card1', 'V99', 'V297', 'P_emaildomain', 'V86', 'R9', 'id_31', 'V130', 'V92', 'V95', 'proc_id_30_1_fe2', 'R_emaildomain_1', 'id_14_fe1', 'V150', 'id_13_fe2', 'V58', 'V247', 'R24', 'V164', 'V167', 'proc_id_30_1', 'V208', 'V40', 'V271', 'V74', 'V123', 'V109', 'V100', 'id_06', 'device_name', 'D13', 'V281', 'device_version_fe2', 'V20', 'R_emaildomain_0_fe1', 'V320', 'V62', 'V136', 'V259', 'card5_fe2', 'V97', 'P_emaildomain_0_fe1', 'id_38', 'V56', 'V288', 'V296', 'ProductCD_fe1', 'id_20_fe1', 'V311', 'card2_fe1', 'R17', 'proc_id_31_0_fe2', 'V64', 'id_13', 'id_33_fe1']
+2019-09-02 17:41:30,379 Folds number: 3
+2019-09-02 17:41:39,857 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4, 'importance_type': 'split', 'learning_rate': 0.01, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 20000, 'n_jobs': -1, 'num_leaves': 256, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': ['AUC'], 'first_metric_only': True, 'bagging_fraction': 0.8, 'bagging_freq': 5, 'lambda_l1': 0, 'lambda_l2': 0, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-02 17:41:40,941 Training fold 1
+2019-09-02 17:42:29,237 Best AUC in this fold: 0.8870044570816097
+2019-09-02 17:42:29,237 Best iteration in this fold: 249
+2019-09-02 17:42:29,332 Training fold 2
+2019-09-02 17:44:34,100 Best AUC in this fold: 0.9035870574700735
+2019-09-02 17:44:34,100 Best iteration in this fold: 637
+2019-09-02 17:44:34,191 Training fold 3
+2019-09-02 17:46:52,193 Best AUC in this fold: 0.9081202417739347
+2019-09-02 17:46:52,193 Best iteration in this fold: 760
+2019-09-02 17:46:52,268 Mean AUC in 3 folds: 0.8995705854418725
+2019-09-02 17:46:52,268 Mean iterations in 3 folds: 548.6666666666666
+2019-09-02 17:47:01,199 Training fold 1
+2019-09-02 17:47:54,516 Best AUC in this fold: 0.8870044570816097
+2019-09-02 17:47:54,516 Best iteration in this fold: 249
+2019-09-02 17:47:54,601 Training fold 2
+2019-09-02 17:49:22,877 Best AUC in this fold: 0.902299106902976
+2019-09-02 17:49:22,877 Best iteration in this fold: 548
+2019-09-02 17:49:22,961 Training fold 3
+2019-09-02 17:50:47,678 Best AUC in this fold: 0.9067049034413119
+2019-09-02 17:50:47,678 Best iteration in this fold: 548
+2019-09-02 17:50:47,753 Mean AUC in 3 folds: 0.8986694891419659
+2019-09-02 17:50:47,753 Mean iterations in 3 folds: 448.3333333333333
+2019-09-02 17:52:28,200 Submission name: 20190902_LightGBM_0.8986694891419659
+2019-09-02 17:52:29,518 End
+2019-09-02 17:59:27,138 Max depth = 5
+2019-09-02 18:00:35,075 Max depth = 6
+2019-09-02 18:01:43,109 Max depth = 7
+2019-09-02 18:02:51,463 Max depth = 8
+2019-09-02 18:03:20,913 Max depth = 5
+2019-09-02 18:03:53,192 Max depth = 6
+2019-09-02 18:04:44,930 Max depth = 7
+2019-09-02 18:05:36,161 Max depth = 8
+2019-09-02 18:06:24,466 Max depth = 9
+2019-09-02 18:07:21,109 Max depth = 10
+2019-09-02 18:08:23,478 Max depth = 11
+2019-09-02 18:09:28,640 Max depth = 12
+2019-09-02 18:10:33,418 Max depth = 13
+2019-09-02 18:11:40,646 Max depth = 14
+2019-09-02 18:12:51,681 Max depth = 15
+2019-09-02 18:14:00,320 Max depth = 16
+2019-09-02 18:15:09,607 Max depth = 17
+2019-09-02 18:16:19,404 Max depth = 18
+2019-09-02 18:17:31,761 Max depth = 19
+2019-09-02 18:53:25,994 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-02 18:53:25,997 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-02 18:53:25,997 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-02 18:53:25,997 Invalid alias: The name man can't be aliased because it is another magic command.
