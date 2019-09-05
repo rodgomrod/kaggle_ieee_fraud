@@ -28,6 +28,34 @@ def reduce_memory(df):
             df[col] = df[col].astype('category')
     return df
 
+
+def reduce_memory2(df):
+    print("Reduce_memory...");
+    dict_types = dict()
+    for col in df.columns:
+        col_type = df[col].dtype
+        if col_type != object:
+            c_min = df[col].min()
+            c_max = df[col].max()
+            if str(col_type)[:3] == 'int':
+                if c_min > np.iinfo(np.int8).min and c_max < np.iinfo(np.int8).max:
+                	dict_types[col] = np.int8
+                elif c_min > np.iinfo(np.int16).min and c_max < np.iinfo(np.int16).max:
+                    dict_types[col] = np.int16
+                elif c_min > np.iinfo(np.int32).min and c_max < np.iinfo(np.int32).max:
+                    dict_types[col] = np.int32
+                elif c_min > np.iinfo(np.int64).min and c_max < np.iinfo(np.int64).max:
+                    dict_types[col] = np.int64
+            else:
+                if c_min > np.finfo(np.float16).min and c_max < np.finfo(np.float16).max:
+                    dict_types[col] = np.float16
+                elif c_min > np.finfo(np.float32).min and c_max < np.finfo(np.float32).max:
+                    dict_types[col] = np.float32
+                else:
+                    dict_types[col] = np.float64
+    return dict_types
+
+
 def freq_encoder(df, label, new_label, min_freq = 0.001):
     rows = df.shape[0]
     n = 0
