@@ -365,3 +365,41 @@
 2019-09-05 20:57:26,338 Invalid alias: The name more can't be aliased because it is another magic command.
 2019-09-05 20:57:26,338 Invalid alias: The name less can't be aliased because it is another magic command.
 2019-09-05 20:57:26,338 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-06 07:55:09,038 
+2019-09-06 07:55:09,038 ##### New LightGBM Model #####
+2019-09-06 07:57:51,063 Used columns: ['R1', 'V258', 'C7', 'V45', 'C1', 'C12', 'C8', 'C4', 'V257', 'V201', 'C11', 'V44', 'C10', 'V189', 'V244', 'V187', 'V200', 'V246', 'V87', 'V274', 'C14', 'V188', 'C6', 'id_17', 'V156', 'V275', 'V149', 'R49', 'V186', 'V233', 'V243', 'V264', 'V86', 'V273', 'V232', 'V231', 'R52', 'V199', 'V170', 'R59', 'V245', 'id_17_fe2', 'V198', 'R57', 'V242', 'N3', 'addr1', 'R38', 'V197', 'R66', 'V229', 'V211', 'V194', 'V195', 'V316', 'addr2_fe2', 'V217', 'addr1_fe2', 'id_35_fe2', 'V52', 'V219', 'V263', 'V34', 'N10', 'V155', 'V190', 'C2', 'R53', 'V259', 'V306', 'V171', 'C13', 'V39', 'R61', 'V317', 'D3', 'V154', 'V192', 'V148', 'V153', 'V83', 'id_19', 'V32', 'R73', 'card3_fe2', 'V291', 'id_17_fe1', 'id_20_fe1', 'TransactionAmt', 'V168', 'V218', 'V285', 'V213', 'V277', 'V212', 'addr1_fe1', 'V178', 'V55', 'V158', 'V310', 'id_35_fe1', 'V290', 'V230', 'V228', 'R8', 'D8', 'R11', 'V261', 'id_06', 'id_37_fe2', 'V177', 'V265', 'card3', 'R20', 'V203', 'id_31_fe1', 'R_emaildomain_1', 'V71', 'V295', 'V167', 'R55', 'V256', 'addr2_fe1', 'R43', 'V184', 'R3', 'V251', 'V80', 'R72', 'card2_fe2', 'V308', 'V280', 'P_emaildomain_0_fe1', 'R63', 'V81', 'N4', 'card_14', 'V204', 'id_37', 'V215', 'id_31', 'id_38_fe2', 'V15', 'V249', 'V253', 'V46', 'V239', 'V147', 'V314', 'N7', 'V278', 'M4_fe2', 'P_emaildomain_0', 'V40', 'V262', 'V125', 'R56', 'V96', 'id_19_fe2', 'R71', 'N17', 'V22', 'ProductCD_fe1', 'V23', 'id_12_fe2', 'proc_id_31_0_2', 'V182', 'D2', 'V202', 'addr2', 'V53', 'id_28_fe2', 'card1', 'id_35', 'id_19_fe1', 'C9', 'card6_fe1', 'ProductCD', 'card6_fe2', 'id_29', 'R5', 'R4', 'proc_id_30_1_2', 'DeviceInfo', 'V16', 'P_emaildomain_0_fe2', 'R41', 'N21', 'R_emaildomain_fe1', 'V307', 'DeviceType_fe2', 'M5', 'id_20_fe2', 'V152', 'V150', 'V196', 'V238', 'V255', 'V216', 'V191', 'proc_id_31_0_fe1', 'id_28_fe1', 'V17', 'R58', 'R65', 'id_36', 'V132', 'DeviceType_2', 'email_8', 'R67', 'V62', 'id_32_fe1', 'P_emaildomain_fe1', 'V93', 'id_16_fe1', 'V94', 'V176', 'R33', 'card2_fe1', 'id_38_fe1', 'D1', 'R45', 'V237', 'R_emaildomain_1_fe1', 'V128', 'R13', 'V79', 'V293', 'N9', 'device_name', 'N2', 'V292', 'V50', 'D10', 'V133', 'P_emaildomain_fe2', 'R12', 'R_emaildomain_0_fe1', 'DeviceInfo_fe1', 'R54', 'id_12_fe1', 'ProductCD_fe2', 'R35', 'V287', 'R46', 'D4', 'id_28', 'V99', 'V30', 'D14']
+2019-09-06 07:57:51,064 Folds number: 3
+2019-09-06 07:58:07,311 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.5, 'importance_type': 'split', 'learning_rate': 0.01, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 20000, 'n_jobs': -1, 'num_leaves': 111, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'metric': ['AUC'], 'first_metric_only': True, 'num_threads': 64, 'bagging_fraction': 0.7, 'bagging_freq': 2, 'lambda_l1': 0, 'lambda_l2': 0, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-06 08:01:37,794 Training fold 1
+2019-09-06 08:09:22,237 Best AUC in this fold: 0.9600551588753573
+2019-09-06 08:09:22,237 Best iteration in this fold: 1636
+2019-09-06 08:09:34,724 Training fold 2
+2019-09-06 08:20:52,327 Best AUC in this fold: 0.9663419676323584
+2019-09-06 08:20:52,327 Best iteration in this fold: 2408
+2019-09-06 08:21:12,371 Training fold 3
+2019-09-06 08:31:18,177 Best AUC in this fold: 0.9636889646366658
+2019-09-06 08:31:18,177 Best iteration in this fold: 2147
+2019-09-06 08:31:35,212 Mean AUC in 3 folds: 0.9633620303814604
+2019-09-06 08:31:35,212 Mean iterations in 3 folds: 2063.6666666666665
+2019-09-06 08:41:31,781 Training fold 1
+2019-09-06 08:44:18,809 Best AUC in this fold: 0.9043183425488269
+2019-09-06 08:44:18,810 Best iteration in this fold: 476
+2019-09-06 08:44:23,204 Training fold 2
+2019-09-06 08:50:10,694 Best AUC in this fold: 0.9118939681811489
+2019-09-06 08:50:10,694 Best iteration in this fold: 1133
+2019-09-06 08:50:19,927 Training fold 3
+2019-09-06 08:55:26,015 Best AUC in this fold: 0.9290413695180618
+2019-09-06 08:55:26,015 Best iteration in this fold: 868
+2019-09-06 08:55:32,804 Mean AUC in 3 folds: 0.9150845600826791
+2019-09-06 08:55:32,804 Mean iterations in 3 folds: 825.6666666666666
+2019-09-06 08:55:32,993 Training fold 1
+2019-09-06 09:00:07,534 Best AUC in this fold: 0.9085511546566523
+2019-09-06 09:00:07,535 Best iteration in this fold: 783
+2019-09-06 09:00:13,915 Training fold 2
+2019-09-06 09:04:55,485 Best AUC in this fold: 0.8942862472637451
+2019-09-06 09:04:55,486 Best iteration in this fold: 774
+2019-09-06 09:05:01,867 Training fold 3
+2019-09-06 09:09:07,148 Best AUC in this fold: 0.8978731987633836
+2019-09-06 09:09:07,148 Best iteration in this fold: 675
+2019-09-06 09:09:12,760 Mean AUC in 3 folds: 0.9002368668945936
+2019-09-06 09:09:12,760 Mean iterations in 3 folds: 744.0
