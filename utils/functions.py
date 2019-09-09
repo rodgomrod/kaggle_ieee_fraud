@@ -39,7 +39,7 @@ def reduce_memory2(df):
             c_max = df[col].max()
             if str(col_type)[:3] == 'int':
                 if c_min > np.iinfo(np.int8).min and c_max < np.iinfo(np.int8).max:
-                	dict_types[col] = np.int8
+                    dict_types[col] = np.int8
                 elif c_min > np.iinfo(np.int16).min and c_max < np.iinfo(np.int16).max:
                     dict_types[col] = np.int16
                 elif c_min > np.iinfo(np.int32).min and c_max < np.iinfo(np.int32).max:
