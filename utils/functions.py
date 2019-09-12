@@ -57,6 +57,7 @@ def reduce_memory2(df):
 
 
 def freq_encoder(df, label, new_label, min_freq = 0.001):
+    df[new_label] = df[label].fillna(-1)
     rows = df.shape[0]
     n = 0
     dict_fe = dict()
@@ -78,7 +79,7 @@ def freq_encoder(df, label, new_label, min_freq = 0.001):
     else:
         _d_type = 'uint64'
         
-    df[new_label] = df[label].apply(lambda x: dict_fe[x]).astype(_d_type)
+    df[new_label] = df[label].fillna(-1).apply(lambda x: dict_fe[x]).astype(_d_type)
     
     n = 0
     dict_fe = dict()
@@ -91,6 +92,6 @@ def freq_encoder(df, label, new_label, min_freq = 0.001):
         else:
             dict_fe[i] = n
             
-    df[new_label] = df[label].apply(lambda x: dict_fe[x]).astype(_d_type)
+    df[new_label] = df[label].fillna(-1).apply(lambda x: dict_fe[x]).astype(_d_type)
     
     return df
