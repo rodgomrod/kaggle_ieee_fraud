@@ -839,3 +839,56 @@
   4.50637201e-05  8.11146962e-06  9.01274402e-07  4.50637201e-06
   1.80254880e-06  1.26178416e-05  1.62229392e-05  2.52356833e-05]
 2019-09-06 06:45:35,333 End
+2019-09-21 11:06:26,976 
+2019-09-21 11:06:26,976 ##### New Permutation Importance Study #####
+2019-09-21 11:06:29,369 Studying synthetic most important features
+2019-09-21 11:12:15,592 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 11:12:15,592 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 11:12:15,593 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 11:12:15,593 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 11:12:23,502 
+2019-09-21 11:12:23,503 ##### New Permutation Importance Study #####
+2019-09-21 11:12:23,911 Studying synthetic most important features
+2019-09-21 11:14:32,790 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 11:14:32,790 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 11:14:32,790 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 11:14:32,790 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 11:24:06,948 
+2019-09-21 11:24:06,948 ##### New Permutation Importance Study #####
+2019-09-21 11:35:26,251 Model used to PermitationImportance: LightGBM
+2019-09-21 11:35:38,950 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 11:35:38,950 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 11:35:38,950 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 11:35:38,950 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 11:35:49,657 
+2019-09-21 11:35:49,657 ##### New Permutation Importance Study #####
+2019-09-21 11:39:03,030 Model used to PermitationImportance: LightGBM
+2019-09-21 11:46:26,331 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4, 'importance_type': 'gain', 'learning_rate': 0.01, 'max_depth': 15, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 800, 'n_jobs': -1, 'num_leaves': 191, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'max_leaf_nodes': 45, 'min_sample_leaf': 20, 'metric': ['AUC'], 'first_metric_only': True, 'num_threads': -1, 'bagging_fraction': 0.7, 'bagging_freq': 5, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-21 11:50:57,239 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 11:50:57,240 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 11:50:57,240 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 11:50:57,240 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 11:51:04,250 
+2019-09-21 11:51:04,250 ##### New Permutation Importance Study #####
+2019-09-21 11:53:56,868 Model used to PermitationImportance: LightGBM
+2019-09-21 11:55:16,360 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 11:55:16,360 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 11:55:16,361 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 11:55:16,361 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 11:55:48,092 
+2019-09-21 11:55:48,092 ##### New Permutation Importance Study #####
+2019-09-21 11:56:21,677 Studying synthetic most important features
+2019-09-21 11:58:42,661 Model used to PermitationImportance: LightGBM
+2019-09-21 12:02:22,184 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4, 'importance_type': 'gain', 'learning_rate': 0.01, 'max_depth': 12, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 800, 'n_jobs': -1, 'num_leaves': 191, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'max_leaf_nodes': 45, 'min_sample_leaf': 20, 'metric': ['AUC'], 'first_metric_only': True, 'num_threads': -1, 'bagging_fraction': 0.7, 'bagging_freq': 5, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
+2019-09-21 12:27:24,228 
+2019-09-21 12:27:24,228 ##### New Permutation Importance Study #####
+2019-09-21 12:27:41,243 Studying synthetic most important features
+2019-09-21 12:38:39,797 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-21 12:38:39,797 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-21 12:38:39,797 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-21 12:38:39,797 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-21 12:38:43,391 
+2019-09-21 12:38:43,391 ##### New Permutation Importance Study #####
+2019-09-21 12:38:47,995 Studying synthetic most important features
+2019-09-21 12:41:29,721 Model used to PermitationImportance: LightGBM
+2019-09-21 12:46:33,219 Params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 0.4, 'importance_type': 'gain', 'learning_rate': 0.01, 'max_depth': 12, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 800, 'n_jobs': -1, 'num_leaves': 191, 'objective': 'xentropy', 'random_state': 42, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'max_leaf_nodes': 45, 'min_sample_leaf': 20, 'metric': ['AUC'], 'first_metric_only': True, 'num_threads': -1, 'bagging_fraction': 0.7, 'bagging_freq': 5, 'bagging_seed': 42, 'seed': 42, 'feature_fraction_seed': 42, 'drop_seed': 42, 'data_random_seed': 42}
